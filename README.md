@@ -12,21 +12,22 @@
     - Oscioscopio
     - Fuente de alimentacion
     - Temperatura
+* Subida a Github
 * Respuestas
 * Diagrama de flujo
 * Diagrama de tiempos
 * Conclusiones
 ___
 
-### **Objetivo general**
+## **Objetivo general**
 
 </p> Bienvenidos a la primera practica del curso de **Processadores Digitales**. En esta primera session, aprendremos a iniciar un proyecto con platformio desde VS code, configurar nuestro miscroprocessador ESP32 al programa y a ejecutar algunos archivos Arduino programados.
 
 ---
 
-### **Materiales**
+## **Materiales**
 
-#### **Harware**
+### **Harware**
 
 Para los materiales necesitaremos: 
 - Ordenador...
@@ -38,7 +39,7 @@ Para los materiales necesitaremos:
 - [x4 Cables duopont](https://www.amazon.com/Solderless-Multicolored-Electronic-Breadboard-Protoboard/dp/B09FP517VM "Ejemplo") male to male
 - Cable MIN USB B macho
 
-#### **Software**
+### **Software**
 
 Para los programas necesitaremos: 
 - Editor de lenguaje [Visual studio](https://code.visualstudio.com/ "official webpage")
@@ -49,7 +50,7 @@ Para los programas necesitaremos:
 
 ___
 
-### **Platformio**
+## **Platformio**
 
 En este apartado se explica por encima como crear nuestro proyecto de ESP32 con platformio y como configurar nuestros puertos.
 
@@ -73,9 +74,11 @@ En este apartado se explica por encima como crear nuestro proyecto de ESP32 con 
 
 ![Img4](include/Platformio4.png)
 
-### **Tasks**
+___
 
-#### **Led**
+## **Tasks**
+
+### **Led**
 
 ```C
 //PROCESADO DIGITAL
@@ -119,7 +122,7 @@ void loop() {
 }
 ```
 
-#### **Oscioscopio**
+### **Oscioscopio**
 
 ```C
 //PROCESADO DIGITAL
@@ -159,7 +162,7 @@ void loop() {
 //De no ser asi, reduce la frequencia de muestra para poder observarla.
 ```
 
-#### **Fuente de alimentacion**
+### **Fuente de alimentacion**
 
 ```C
 //PROCESADO DIGITAL
@@ -201,7 +204,7 @@ void loop() {
 //output el valor de este.
 ```
 
-#### **Temperatura**
+### **Temperatura**
 
 ```C
 //PROCESADO DIGITAL
@@ -227,14 +230,36 @@ void loop() {
   Serial.println(temperature);
 }
 ```
+___
 
+## **Arrancar el codigo**
 
-### **Respuestas**
+Una vez escrito nuestro codigo en la carpeta **\src** del proyecto, simplemente nos iremos a la extension del **Platformio**. En el indize de la izquierda veres una lista de opciones en esquema. 
 
-### **Diagrama de flujo**
+1. Para compilar el programa en vuestra placa, debeis selecionar la funcion **PROJECT TASKS\ [NOMBRE DE VUESTRA PLACA]"esp32doit-devkit-v1"\General\Build**. El proceso puede tardar unos min. Podeis ver el proceso en el panel de OUTPUT del VS code.
 
-### **Diagrama de tiempos**
+2. Despues, debeis arrancar el programa con la siguiente funcion **Upload**, debajo de **Build**. Los procesos (codigo de ejecucion, prints, output signals) del programa se veran en el panel **OUTPUT** de VS code.
 
-### **Conclusiones**
+![Img3](include/Platformio5.png)
 
-xd
+___
+
+## **Subida a Github**
+
+___
+
+## **Respuestas**
+
+___
+
+## **Diagrama de flujo**
+
+___
+
+## **Diagrama de tiempos**
+
+___
+
+## **Conclusiones**
+
+___
