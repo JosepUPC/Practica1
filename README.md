@@ -271,8 +271,8 @@ ___
 
 ## **Conclusiones**
 
-> *----Esta primera experiencia con el procesado de señal a sido muy enriquezedora. No solo por el simple trabajo de la practica, sino en el hecho de tener que esforzarse. Es decir, tener que explorar por ti mismo las respuestas a todo.*
+> *----Esta primera experiencia con el procesado de señal a sido muy enriquezedora. No solo por el simple trabajo de la practica, sino en el hecho de tener que esforzarse. Es decir, tener que explorar por ti mismo las respuestas a qualquier problema planteado a la hora de afrontar el trabajo.*
 
-> *----Desde crear le proyecto con platformio, tener que aprender codigo C, Arduino, Git, la interación entre dispositivos con la placa ESP32 y prodecer con una forma de trabajo mas "profesiona" y limia. És por eso que he creado una memoria entera del trabajo ejecutada paso a paso. Para tenerla a modo de Historial para el futuro*
+> *----Desde crear el proyecto con Platformio, tener que aprender codigo C, Arduino, Git, la interación entre dispositivos con la placa ESP32 y procdecer con una forma de trabajo mas "profesional". És por eso que he creado una memoria entera del trabajo ejecutada paso a paso. Para tenerla a modo de Historial para el futuro*
 
 ___
