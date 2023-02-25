@@ -55,23 +55,23 @@ En este apartado se explica por encima como crear nuestro proyecto de ESP32 con 
 
 1. Abrir VS code, ir al apartado de Extensiones. En el explorador escribimos "Platofrmio" i intalamos la extension. (*puede tardar unos min.*)
 
-![Img1](Include/Platformio1.png)
+![Img1](include/Platformio1.png)
 
 2. Abriremos nuestra ventana de Platformio desde la barra de izquierda. Por defecto, nos encontraremos en la barra de tareas. De no ser asi, abrid "Pios Home/Open. Ya estais dentro de "platformio". Vas a la pestaña izquierda de Home si es que no estais por defecto y creais un nuevo proyecto directamente.  
 
-![Img2](Include/Platformio2.png)
+![Img2](include/Platformio2.png)
 
 3. En la pestaña para crear el proyecto os pediran una serie de cosas a declarar. Poneis un Nombre al proyecto,  especificais el tipo de placa que queries programar (en este caso sera una DOIT **ESP32 DEVKIT V1**) y como framework escogeis por defecto Arduino. Le damos a finish y el programa de por si nos creara los fixeros necessarios para ejecutar la programación del dispositivo Esp32.
 
 > *"debeis declarar en que directorio quereis crear vuestro folder de proyecto antes de continuar..."*
 
-![Img3](Include/Platformio3.png)
+![Img3](include/Platformio3.png)
 
 4. Una vez creados los ficheros nos iremos directamente a modificais el **Monitor_speed** a una valor concreto (**de 115200**). El auto de la franga azul de abajo nos ayudara a localizar el puerto de conexion de nuestro ESP32 como esta indicado en la siguiente imagen. Asseguraos que el dispositivo este bien conectado al puerto USB de vuestro ordenador.
 
 >*"Eso possible que el programa os pida que os instaleis unos driver."*
 
-![Img4](Include/Platformio4.png)
+![Img4](include/Platformio4.png)
 
 ### **Tasks**
 
