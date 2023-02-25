@@ -246,20 +246,33 @@ ___
 
 ## **Subida a Github**
 
+Para subir nuestra creación a [GitHub](https://github.com "official webpage"), hos dejo un enlance a "dos" formas de proceder
+
+1. Curso entero de GIT para aprender a subir ficheros a a internet de forma profesional "https://www.youtube.com/playlist?list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU"
+
+2. Como sinconizar nuestro VS code con nuestra cuenta de Github
+"https://www.youtube.com/watch?v=htstKtlFKeE"
 ___
 
 ## **Respuestas**
+
 
 ___
 
 ## **Diagrama de flujo**
 
+
 ___
 
 ## **Diagrama de tiempos**
 
+
 ___
 
 ## **Conclusiones**
+
+> *----Esta primera experiencia con el procesado de señal a sido muy enriquezedora. No solo por el simple trabajo de la practica, sino en el hecho de tener que esforzarse. Es decir, tener que explorar por ti mismo las respuestas a todo.*
+
+> *----Desde crear le proyecto con platformio, tener que aprender codigo C, Arduino, Git, la interación entre dispositivos con la placa ESP32 y prodecer con una forma de trabajo mas "profesiona" y limia. És por eso que he creado una memoria entera del trabajo ejecutada paso a paso. Para tenerla a modo de Historial para el futuro*
 
 ___
