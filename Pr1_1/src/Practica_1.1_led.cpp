@@ -21,7 +21,7 @@ void loop() {
   //encender led
   digitalWrite(impresion, HIGH);
 
-  //sacar por puerto serie mensaje ON
+  //sacar por puerto série mensaje ON
   Serial.println("ON");
 
   //espera de 500 milisegundos
