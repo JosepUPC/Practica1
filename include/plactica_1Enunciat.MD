@@ -32,7 +32,7 @@ La distribucion de pines de este procesador  es el siguiente
 
 * Blink.ino file code
 
-##This repository has an example file to blink the LED on an Arduino board.##
+## This repository has an example file to blink the LED on an Arduino board. ##
 
 ```c++
 /*

@@ -19,4 +19,5 @@ void loop() {
 
   //sacar por puesto serie el valor de la temperatura
   Serial.println(temperature);
+  delay(500);
 }

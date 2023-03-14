@@ -228,6 +228,7 @@ void loop() {
 
   //sacar por puesto serie el valor de la temperatura
   Serial.println(temperature);
+  delay(500);
 }
 ```
 ___
@@ -256,7 +257,9 @@ ___
 
 ## **Respuestas**
 
+- *En el programa que se ha realizado cual es el tiempo libre que tiene el procesador*?
 
+> En el programa que se ha realizado en ambos casos el nucle (core) principal del procesador esta todo el rato funcionando, no tiene tiempo libre, pues 
 ___
 
 ## **Diagrama de flujo**
