@@ -257,9 +257,9 @@ ___
 
 ## **Respuestas**
 
-- *En el programa que se ha realizado cual es el tiempo libre que tiene el procesador*?
+- En el programa que se ha realizado cual es el tiempo libre que tiene el procesador*
 
-> En el programa que se ha realizado en ambos casos el nucle (core) principal del procesador esta todo el rato funcionando, no tiene tiempo libre, pues 
+>   *En el programa que se ha realizado en ambos casos el nucle (core) principal del procesador esta todo el rato funcionando, no tiene tiempo libre, pues cada vez que proyecta la respuesta port pantalla, ejecuta un proceso de espera que le impide ejecutar otras tareas. És decir, en el transcurso del delay, el procesador no puedo hacer otra cosa que esperar (delay).* 
 ___
 
 ## **Diagrama de flujo**
