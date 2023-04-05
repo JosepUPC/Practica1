@@ -264,11 +264,63 @@ ___
 
 ## **Diagrama de flujo**
 
+- En este apartado se muestra de forma simplifcada el diagrama de fujo que realiza varios de los apartados de la practica. Más especificamente la del *LED* y la *Fuente de Alimentación*.
+```mermaid
+---
+title: LED
+---
+stateDiagram-v2
+  state "Serial Begin" as s0
+  state "led LOW" as s1
+  state "led HIGH" as s2
+  state Setup {
+      [*] --> s0
+  }
+  state loop {
+      s2 --> s1: Delay 500 ms
+      s1 --> s2: Delay 500 ms
+  }
+
+  [*] --> Setup
+  Setup --> loop
+```
+```mermaid
+---
+title: Fuente de Alimentacion
+---
+stateDiagram-v2
+  state "Var Init" as s0
+  state "Serial begin" as s1
+
+  state Setup {
+     [*] --> s1
+  }
+  state Loop {
+    analogRead() --> VarPrint: volt conversion
+    VarPrint --> analogRead(): Delay 20ms,
+  }
+
+  s0 --> Setup
+  Setup --> Loop
+```
 
 ___
 
 ## **Diagrama de tiempos**
 
+- Junto al apartado anterior se quiere mostrar el daigram de tiempos de las partes expuestas en el anterior apartado.
+
+<!---```wavedrom
+
+{signal:[
+    {name:"clk", wave: "P......."},
+    {name:"LED", wave: ""},
+    {name:"estate", wave: ""},
+    {name:"Delay", wave: ""},
+    {name:"SeiralWrite", wave: ""},
+  ]
+}
+---> <img src="Dtiempo.png" alt="image" width="700" height="70"/>
 
 ___
 
