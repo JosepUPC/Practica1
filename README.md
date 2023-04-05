@@ -289,7 +289,7 @@ stateDiagram-v2
 title: Fuente de Alimentacion
 ---
 stateDiagram-v2
-  state "Var Init" as s0
+  state "Var_Init" as s0
   state "Serial begin" as s1
 
   state Setup {
@@ -310,7 +310,7 @@ ___
 
 - Junto al apartado anterior se quiere mostrar el daigram de tiempos de las partes expuestas en el anterior apartado.
 
-<!---```wavedrom
+```wavedrom
 
 {signal:[
     {name:"clk", wave: "P......."},
@@ -320,7 +320,7 @@ ___
     {name:"SeiralWrite", wave: ""},
   ]
 }
----> <img src="Dtiempo.png" alt="image" width="700" height="70"/>
+```
 
 ___
 
